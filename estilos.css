@@ -1,0 +1,115 @@
+body{
+    background-image: url(bb.avif);  
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+img.centrada {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;;
+    border-radius: 50%;
+    mask-border: 10px;
+  }
+/* Aplicar la imagen de fondo al cuerpo del documento */
+body {
+  background-color: rgb(59, 156, 156);
+}
+ 
+h1.nombre {
+    text-align: center;
+    margin: 0 auto;
+    color:black;
+    text-decoration-thickness: auto;
+    letter-spacing: 5px;
+}
+p.presentacion{
+    background-color: white;
+    margin-right: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    text-align: center;
+    margin: 15px;
+}
+tr.titulos{
+    font-weight: bolder;
+}
+
+h2{
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+  }
+  
+  td {
+    
+    padding: 10px; /* Ajusta el espaciado interno de las celdas según tus necesidades */
+  }
+  
+  td:last-child {
+    border-right: none; /* Elimina el borde derecho de la última columna */
+  }
+  
+.tabla{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+div:hover{
+    background-color: whitesmoke  ;
+    font-size: 20px;
+}
+h2#exp:hover{
+    color:rgb(25, 0, 255)
+}
+ul#hab{
+    padding-left: 50px;
+}
+ul#hab:hover{
+    font-weight: bold;
+}
+.oculto {
+    display: none;
+  }
+  
+  .activador:hover + .oculto {
+    display: block;
+    font-weight: bold;
+  }
+  .oculto2 {
+    display: none;
+  }
+  
+  .activador2:hover + .oculto2 {
+    display: block;
+    font-weight: bold;
+  }
+  .oculto3 {
+    display: none;
+    }
+  
+  .activador3:hover + .oculto3 {
+    display: block;
+    font-weight: bold;
+  }
+  .oculto4 {
+    display: none;
+  }
+  
+  .activador4:hover + .oculto4 {
+    display: block;
+    font-weight: bold;
+  }
+  .oculto5 {
+    display: none;
+  }
+  
+  .activador5:hover + .oculto5 {
+    display: block;
+    font-weight: bold;
+  }
+  
+  
+  
+  
